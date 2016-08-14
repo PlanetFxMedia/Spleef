@@ -1,0 +1,17 @@
+lobbyworldname: 'world'
+items:
+  leaveItem:
+    name: '$4Spleef verlassen'
+    lore: '$eMit diesem Item verlaesst du das Spleef-Spiel.'
+    material: 'SLIME_BALL'
+    damage: 0
+  infoItem:
+    name: '$4Spleef-Schilder inspizieren.'
+    lore: '$eMit diesem Item koennen Spleef-Schilder abgeprueft werden.'
+    material: 'STICK'
+    damage: 0
+  markItem:
+    name: '$4Spleef-Arenen bereiche markieren.'
+    lore: '$eMit diesem Item koennen Spleef-Arenen markiert werden.'
+    material: 'BLAZE_ROD'
+    damage: 0

@@ -1,0 +1,28 @@
+name: PlanetFxSpleef
+version: 1.1.3
+author: Sebastian Mikolai
+
+main: de.SebastianMikolai.PlanetFx.Spleef.Spleef
+
+permissions:
+  spleef.*:
+    description: Gives access to all Spleef commands.
+    default: op
+    children:
+      spleef.sign: true
+      spleef.startstop: true
+      spleef.create: true
+  spleef.sign:
+    description: Allows you to place Spleef-Signs.
+    default: op
+  spleef.startstop:
+    description: Allows you to start/stop Spleef-Games.
+    default: op
+    children:
+      spleef.cmdbypass: true
+  spleef.create:
+    description: Allows you to create Spleef-Arenas.
+    default: op
+  spleef.cmdbypass:
+    description: Allows you to bypass the command blockade.
+    default: op
